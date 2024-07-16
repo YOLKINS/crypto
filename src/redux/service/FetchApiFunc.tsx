@@ -14,7 +14,6 @@ export default class FetchApiFunc {
           throw new Error(`HTTP error! status: ${response.status}`);
         }
         const result = response.json()
-        console.log('result from serviceFetch', result);
         return result;
       } catch (error) { 
         console.error('Fetch error:', error);
