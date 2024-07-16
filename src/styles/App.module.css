@@ -1,0 +1,42 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin: auto 120px;
+}
+
+select {
+    width: fit-content;
+}
+
+.refresh {
+    background-color: #007BFF;
+    border: none;
+    color: white;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: #007BFF 0.3s ease;
+    display: inline-block;
+    width: 100px;
+}
+
+.refresh:hover {
+    background-color: #0056b3;
+}
+
+.refresh:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.5);
+}
+
+.refresh:active {
+    background-color: #004085;
+}
